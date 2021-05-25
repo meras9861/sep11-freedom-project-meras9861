@@ -15,6 +15,7 @@ document.querySelector("#years").addEventListener("change",function(event){
         prompt("True of false: Bill Gates invented Scratch.");
         prompt("True of false: The animal that serves as the overall sprite/character for Scratch is a cat.");
         prompt("True of false: In scratch, coordinates allow the user to move sprites/characters around the screen.");
+        prompt("Here are the correct answers for the ten questions in the order that you aswered them in, as well as the correct statements for the questions that were false: 1)True   2)True   3)False; An algorithm is a set of instructions   4)False; The green flag symbol on the top of your scratch program starts the program   5)False; A 'Script' is the instructions for a sprite   6)True   7)False; Scratch was released in 2007   8)False; Mitch Resnik invented Scratch   9)True   10)True   ---   Please type the number of questions you got correct below!");
     } else if(event.target.value == "SEP10"){
     alert("The next ten questions will focus on HTML/CSS content. Make sure to stay until the end to see if you got the correct answers!");
     prompt("True of false: HTML stands for 'Hypertext Markup Language.'");
@@ -27,6 +28,7 @@ document.querySelector("#years").addEventListener("change",function(event){
     prompt("True of false: In HTML, an <i> tag can be used to italicize text.");
     prompt("True of false: CSS can be implemented with internal, external, and inline styles.");
     prompt("True of false: In HTML, '<a href>' creates an image.");
+    prompt("Here are the correct answers for the ten questions in the order that you aswered them in, as well as the correct statements for the questions that were false: 1)True   2)False; CSS stands for 'Cascading Style Sheets'   3)False; Most HTML tags must containa closing tag   4)True   5)False; A <br> tag is used to bold lines of text   6)False; 'display: none' allows the user to remove an entire element   7)True   8)True   9)True   10)False; In HTML, '<a href>' links the page to another URL/website   ---   Please type the number of questions you got correct below!");
     } else if(event.target.value == "SEP11"){
     alert("The next ten questions will focus on JavaScript content. Make sure to stay until the end to see if you got the correct answers!");
     prompt("True of false: 'prompt()' is used as a way to ask for some type of user input.");
@@ -39,4 +41,9 @@ document.querySelector("#years").addEventListener("change",function(event){
     prompt("True of false: 'i++' is used to increase a number or value by two.");
     prompt("True of false: JavaScript strings can be used for both storing and manipulating text.");
     prompt("True of false: An array can stand and function correctly on its own.");
+    prompt("Here are the correct answers for the ten questions in the order that you aswered them in, as well as the correct statements for the questions that were false: 1)True   2)False; The 'shift()' method is used to remove the first element from an array   3)False; One can start writing their JavaScript code under the <script> tag in their IDE.   4)True   5)True   6)True   7)False; A 'for loop' can only run the same code over and over again   8)False; 'i++' is used to increase a number or value by one   9)True   10)False; An array needs to be connected to a single variable to function correctly   ---   Please type the number of questions you got correct below!");
     }});
+    
+    <a-scene>
+  a-box color="black" position="0 2 -5" rotation="0 45 45" scale="2 2 2">
+  </a-scene>;
