@@ -1,17 +1,3 @@
 body {
   background-image: linear-gradient(to right, lightgray, black, lightgray);
 }
-
-a-sky background="color: gray"
-
-
-a-sky background="color: black"
-
-
-a-sky background="color: white"
-
-<a-scene>
-  a-box color="black" position="0 2 -5" rotation="0 45 45" scale="2 2 2"></a-box>
-
-  <a-sky color="gray"></a-sky>
-</a-scene>

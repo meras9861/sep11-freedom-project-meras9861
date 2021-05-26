@@ -1,3 +1,5 @@
+alert("testing");
+
 document.querySelector("button").addEventListener("click",function(event){
     document.querySelector("button").innerHTML = "Directions: First, you will pick what year of SEP you would like to test your knowledge on. The years include SEP9 (based on Scratch), SEP10 (based on HTML/CSS), and SEP11 (based on JavaScript). Then, you will answer ten ture or false questions about the content from the year you choose. Make sure that you write your answers down for every question to check if they were correct at the end. Have fun!";
 });
@@ -43,7 +45,3 @@ document.querySelector("#years").addEventListener("change",function(event){
     prompt("True of false: An array can stand and function correctly on its own.");
     prompt("Here are the correct answers for the ten questions in the order that you aswered them in, as well as the correct statements for the questions that were false: 1)True   2)False; The 'shift()' method is used to remove the first element from an array   3)False; One can start writing their JavaScript code under the <script> tag in their IDE.   4)True   5)True   6)True   7)False; A 'for loop' can only run the same code over and over again   8)False; 'i++' is used to increase a number or value by one   9)True   10)False; An array needs to be connected to a single variable to function correctly   ---   Please type the number of questions you got correct below!");
     }});
-    
-    <a-scene>
-  a-box color="black" position="0 2 -5" rotation="0 45 45" scale="2 2 2">
-  </a-scene>;
