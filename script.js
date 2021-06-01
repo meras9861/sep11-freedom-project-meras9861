@@ -1,9 +1,9 @@
-alert("Welcome to my mini-game! The purpose of this game is to test your knowledge on the content that you have learned in a particular subject. What better subject to test your knowledge in than SEP!? So, in this game, you will be tested on what you have been taught in your SEP classes to see how much you have learned or how much more review you may need.");
+alert("Welcome to my mini-game! The purpose of this game is to test your knowledge on the content that you have learned in a particular subject this year. What better subject to test your knowledge on than SEP!? So, in this game, you will be tested on what you have been taught in your SEP classes to see how much you have learned or how much more review you may need.");
 
-document.querySelector('#content3').innerHTML += prompt("Please type your name below.");
+document.querySelector('#content3').innerHTML += prompt("Please type your name below. Then, click on the directions after pressing 'OK'.");
 
 document.querySelector("button").addEventListener("click",function(event){
-    document.querySelector("button").innerHTML = "Directions: First, you will pick what year of SEP you would like to test your knowledge on. The years include SEP9 (based on Scratch), SEP10 (based on HTML/CSS), and SEP11 (based on JavaScript). Then, you will answer ten ture or false questions about the content from the year you choose. Make sure that you write your answers down for every question to check if they were correct at the end. Lastly, you will in the sentence below by answering two questions as the end of the game. Have fun!";
+    document.querySelector("button").innerHTML = "Directions: First, you will pick what year of SEP you would like to test your knowledge on by using the drop-down list below on the left. The years include SEP9 (based on Scratch), SEP10 (based on HTML/CSS), and SEP11 (based on JavaScript). Then, you will answer ten ture or false questions about the content from the year you choose. Make sure that you write your answers down for every question to check if they were correct at the end. Lastly, you will fill in the sentence below by answering two questions at the end of the game. Have fun!  (SOFTWARE ENGINEERING IS OUT OF THIS WORLD ;))";
 });
 
 document.querySelector("#years").addEventListener("change",function(event){
@@ -53,3 +53,4 @@ document.querySelector("#years").addEventListener("change",function(event){
     document.querySelector('#content1').innerHTML += prompt("How many questions did you answer correctly? Please type the number only.");
         document.querySelector('#content2').innerHTML += prompt("What is 1 thing you learned from the SEP content or about youself as an SEP student? Please start your response with 'I learned'");
     }});
+    
