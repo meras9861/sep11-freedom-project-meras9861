@@ -1,23 +1,27 @@
-alert("testing");
+alert("Welcome to my mini-game! The purpose of this game is to test your knowledge on the content that you have learned in a particular subject. What better subject to test your knowledge in than SEP!? So, in this game, you will be tested on what you have been taught in your SEP classes to see how much you have learned or how much more review you may need.");
+
+document.querySelector('#content3').innerHTML += prompt("Please type your name below.");
 
 document.querySelector("button").addEventListener("click",function(event){
-    document.querySelector("button").innerHTML = "Directions: First, you will pick what year of SEP you would like to test your knowledge on. The years include SEP9 (based on Scratch), SEP10 (based on HTML/CSS), and SEP11 (based on JavaScript). Then, you will answer ten ture or false questions about the content from the year you choose. Make sure that you write your answers down for every question to check if they were correct at the end. Have fun!";
+    document.querySelector("button").innerHTML = "Directions: First, you will pick what year of SEP you would like to test your knowledge on. The years include SEP9 (based on Scratch), SEP10 (based on HTML/CSS), and SEP11 (based on JavaScript). Then, you will answer ten ture or false questions about the content from the year you choose. Make sure that you write your answers down for every question to check if they were correct at the end. Lastly, you will in the sentence below by answering two questions as the end of the game. Have fun!";
 });
 
 document.querySelector("#years").addEventListener("change",function(event){
     if(event.target.value == "SEP9"){
-        alert("The next ten questions will focus on Scratch content. Make sure to stay until the end to see if you got the correct answers!");
-        prompt("True of false: All scratch programs contain sprites and scripts.");
-        prompt("True of false: In scratch, a character or object is called a 'Sprite.'");
-        prompt("True of false: An algorithm is a list of numbers going in a pattern.");
-        prompt("True of false: The green flag symbol on the top of your scratch program stops the program.");
-        prompt("True of false: A 'Script' is another name for a character on scratch.");
-        prompt("True of false: Scratch is a programming language.");
-        prompt("True of false: Scratch was released in 2010.");
-        prompt("True of false: Bill Gates invented Scratch.");
-        prompt("True of false: The animal that serves as the overall sprite/character for Scratch is a cat.");
-        prompt("True of false: In scratch, coordinates allow the user to move sprites/characters around the screen.");
-        prompt("Here are the correct answers for the ten questions in the order that you aswered them in, as well as the correct statements for the questions that were false: 1)True   2)True   3)False; An algorithm is a set of instructions   4)False; The green flag symbol on the top of your scratch program starts the program   5)False; A 'Script' is the instructions for a sprite   6)True   7)False; Scratch was released in 2007   8)False; Mitch Resnik invented Scratch   9)True   10)True   ---   Please type the number of questions you got correct below!");
+    alert("The next ten questions will focus on Scratch content. Make sure to stay until the end to see if you got the correct answers!");
+    prompt("True of false: All scratch programs contain sprites and scripts.");
+    prompt("True of false: In scratch, a character or object is called a 'Sprite.'");
+    prompt("True of false: An algorithm is a list of numbers going in a pattern.");
+    prompt("True of false: The green flag symbol on the top of your scratch program stops the program.");
+    prompt("True of false: A 'Script' is another name for a character on scratch.");
+    prompt("True of false: Scratch is a programming language.");
+    prompt("True of false: Scratch was released in 2010.");
+    prompt("True of false: Bill Gates invented Scratch.");
+    prompt("True of false: The animal that serves as the overall sprite/character for Scratch is a cat.");
+    prompt("True of false: In scratch, coordinates allow the user to move sprites/characters around the screen.");
+    alert("Here are the correct answers for the ten questions in the order that you aswered them in, as well as the correct statements for the questions that were false: 1)True   2)True   3)False; An algorithm is a set of instructions   4)False; The green flag symbol on the top of your scratch program starts the program   5)False; A 'Script' is the instructions for a sprite   6)True   7)False; Scratch was released in 2007   8)False; Mitch Resnik invented Scratch   9)True   10)True");
+    document.querySelector('#content1').innerHTML += prompt("How many questions did you answer correctly? Please type the number only.");
+        document.querySelector('#content2').innerHTML += prompt("What is 1 thing you learned from the SEP content or about youself as an SEP student? Please start your response with 'I learned'");
     } else if(event.target.value == "SEP10"){
     alert("The next ten questions will focus on HTML/CSS content. Make sure to stay until the end to see if you got the correct answers!");
     prompt("True of false: HTML stands for 'Hypertext Markup Language.'");
@@ -30,7 +34,9 @@ document.querySelector("#years").addEventListener("change",function(event){
     prompt("True of false: In HTML, an <i> tag can be used to italicize text.");
     prompt("True of false: CSS can be implemented with internal, external, and inline styles.");
     prompt("True of false: In HTML, '<a href>' creates an image.");
-    prompt("Here are the correct answers for the ten questions in the order that you aswered them in, as well as the correct statements for the questions that were false: 1)True   2)False; CSS stands for 'Cascading Style Sheets'   3)False; Most HTML tags must containa closing tag   4)True   5)False; A <br> tag is used to bold lines of text   6)False; 'display: none' allows the user to remove an entire element   7)True   8)True   9)True   10)False; In HTML, '<a href>' links the page to another URL/website   ---   Please type the number of questions you got correct below!");
+    alert("Here are the correct answers for the ten questions in the order that you aswered them in, as well as the correct statements for the questions that were false: 1)True   2)False; CSS stands for 'Cascading Style Sheets'   3)False; Most HTML tags must containa closing tag   4)True   5)False; A <br> tag is used to bold lines of text   6)False; 'display: none' allows the user to remove an entire element   7)True   8)True   9)True   10)False; In HTML, '<a href>' links the page to another URL/website");
+    document.querySelector('#content1').innerHTML += prompt("How many questions did you answer correctly? Please type the number only.");
+        document.querySelector('#content2').innerHTML += prompt("What is 1 thing you learned from the SEP content or about youself as an SEP student? Please start your response with 'I learned'");
     } else if(event.target.value == "SEP11"){
     alert("The next ten questions will focus on JavaScript content. Make sure to stay until the end to see if you got the correct answers!");
     prompt("True of false: 'prompt()' is used as a way to ask for some type of user input.");
@@ -43,5 +49,7 @@ document.querySelector("#years").addEventListener("change",function(event){
     prompt("True of false: 'i++' is used to increase a number or value by two.");
     prompt("True of false: JavaScript strings can be used for both storing and manipulating text.");
     prompt("True of false: An array can stand and function correctly on its own.");
-    prompt("Here are the correct answers for the ten questions in the order that you aswered them in, as well as the correct statements for the questions that were false: 1)True   2)False; The 'shift()' method is used to remove the first element from an array   3)False; One can start writing their JavaScript code under the <script> tag in their IDE.   4)True   5)True   6)True   7)False; A 'for loop' can only run the same code over and over again   8)False; 'i++' is used to increase a number or value by one   9)True   10)False; An array needs to be connected to a single variable to function correctly   ---   Please type the number of questions you got correct below!");
+    alert("Here are the correct answers for the ten questions in the order that you aswered them in, as well as the correct statements for the questions that were false: 1)True   2)False; The 'shift()' method is used to remove the first element from an array   3)False; One can start writing their JavaScript code under the <script> tag in their IDE.   4)True   5)True   6)True   7)False; A 'for loop' can only run the same code over and over again   8)False; 'i++' is used to increase a number or value by one   9)True   10)False; An array needs to be connected to a single variable to function correctly");
+    document.querySelector('#content1').innerHTML += prompt("How many questions did you answer correctly? Please type the number only.");
+        document.querySelector('#content2').innerHTML += prompt("What is 1 thing you learned from the SEP content or about youself as an SEP student? Please start your response with 'I learned'");
     }});

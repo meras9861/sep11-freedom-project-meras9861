@@ -1,3 +1,11 @@
 body {
-  background-image: linear-gradient(to right, lightgray, black, lightgray);
+  background-image: linear-gradient(to right, lightgray, black, lightgray, black);
+}
+
+h1 {
+    color: white;
+}
+
+h5 {
+    color: white;
 }
