@@ -53,4 +53,3 @@ document.querySelector("#years").addEventListener("change",function(event){
     document.querySelector('#content1').innerHTML += prompt("How many questions did you answer correctly? Please type the number only.");
         document.querySelector('#content2').innerHTML += prompt("What is 1 thing you learned from the SEP content or about youself as an SEP student? Please start your response with 'I learned'");
     }});
-    
