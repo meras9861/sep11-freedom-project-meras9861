@@ -21,7 +21,7 @@ document.querySelector("#years").addEventListener("change",function(event){
     prompt("True OR False: In Scratch, coordinates allow the user to move sprites/characters around the screen.");
     alert("Here are the correct answers for the ten questions in the order that you answered them in, as well as the correct statements for the questions that were false: 1)True   2)True   3)False; An algorithm is a set of instructions   4)False; The green flag symbol on the top of your Scratch program starts the program   5)False; A 'Script' is the instructions for a sprite   6)True   7)False; Scratch was released in 2007   8)False; Mitch Resnik invented Scratch   9)True   10)True");
     document.querySelector('#content1').innerHTML += prompt("How many questions did you answer correctly? Please type the number only.");
-        document.querySelector('#content2').innerHTML += prompt("What is 1 thing you learned from the SEP content or about youself as an SEP student? Please start your response with 'I learned'");
+        document.querySelector('#content2').innerHTML += prompt("What is 1 thing you learned from the SEP content or about yourself as an SEP student? Please start your response with 'I learned'");
     } else if(event.target.value == "SEP10"){
     alert("The next ten questions will focus on HTML/CSS content. Make sure to stay until the end to see if you got the correct answers!");
     prompt("True OR False: HTML stands for 'Hypertext Markup Language.'");
@@ -36,7 +36,7 @@ document.querySelector("#years").addEventListener("change",function(event){
     prompt("True OR False: In HTML, '<a href>' creates an image.");
     alert("Here are the correct answers for the ten questions in the order that you answered them in, as well as the correct statements for the questions that were false: 1)True   2)False; CSS stands for 'Cascading Style Sheets'   3)False; Most HTML tags must contain a closing tag   4)True   5)False; A <br> tag is used to bold lines of text   6)False; 'display: none' allows the user to remove an entire element   7)True   8)True   9)True   10)False; In HTML, '<a href>' links the page to another URL/website");
     document.querySelector('#content1').innerHTML += prompt("How many questions did you answer correctly? Please type the number only.");
-        document.querySelector('#content2').innerHTML += prompt("What is 1 thing you learned from the SEP content or about youself as an SEP student? Please start your response with 'I learned'");
+        document.querySelector('#content2').innerHTML += prompt("What is 1 thing you learned from the SEP content or about yourself as an SEP student? Please start your response with 'I learned'");
     } else if(event.target.value == "SEP11"){
     alert("The next ten questions will focus on JavaScript content. Make sure to stay until the end to see if you got the correct answers!");
     prompt("True OR False: 'prompt()' is used as a way to ask for some type of user input.");
@@ -51,5 +51,5 @@ document.querySelector("#years").addEventListener("change",function(event){
     prompt("True OR False: An array can stand and function correctly on its own.");
     alert("Here are the correct answers for the ten questions in the order that you answered them in, as well as the correct statements for the questions that were false: 1)True   2)False; The 'shift()' method is used to remove the first element from an array   3)False; One can start writing their JavaScript code under the <script> tag in their IDE   4)True   5)True   6)True   7)False; A 'for loop' can run the same code over and over again   8)False; 'i++' is used to increase a number or value by one   9)True   10)False; An array needs to be connected to a single variable to function correctly");
     document.querySelector('#content1').innerHTML += prompt("How many questions did you answer correctly? Please type the number only.");
-        document.querySelector('#content2').innerHTML += prompt("What is 1 thing you learned from the SEP content or about youself as an SEP student? Please start your response with 'I learned'");
+        document.querySelector('#content2').innerHTML += prompt("What is 1 thing you learned from the SEP content or about yourself as an SEP student? Please start your response with 'I learned'");
     }});
